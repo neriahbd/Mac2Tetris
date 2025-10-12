@@ -48,5 +48,5 @@ You can now launch your **Nand2Tetris simulators** directly with a **simple doub
 ---
 
 <p align="center">
-  <b>Created by:</b> Neriya Ben David
+  <b>Created by:</b> Neriah Ben David
 </p>
