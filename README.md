@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Mac2Tetris Logo" width="200">
+</p>
+
 ## 🚀 Installation & Setup Instructions
 
 ### **Step 1:**
