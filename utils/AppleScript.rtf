@@ -1,0 +1,18 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2820
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red128\green0\blue128;}
+{\*\expandedcolortbl;;\csgenericrgb\c50001\c0\c50001;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\partightenfactor0
+
+\f0\fs24 \cf2 tell application "System Events"\
+	-- Get the path to the Automator app being run\
+	set appPath to POSIX path of (path to me)\
+end tell\
+\
+-- Remove the last part of the path to get the directory (this removes the .app part)\
+set appDir to do shell script "dirname " & quoted form of appPath\
+\
+-- Change to the directory of the Automator app and execute script.sh\
+do shell script "cd " & quoted form of appDir & "; chmod +x ./utils/script.sh; ./utils/script.sh"\
+}
