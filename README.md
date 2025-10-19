@@ -23,7 +23,7 @@ Create a custom **Automator app**:
 Double-click `mac2tetris.app`.  
 It will automatically generate `.app` files for all **Nand2Tetris simulators**.
 
-### (If there is a restriction warning)**
+**#If there is a restriction warning:** 
 Remove macOS security restrictions of downloaded files by running:
 ```bash
 xattr -d com.apple.quarantine utils/script.sh
