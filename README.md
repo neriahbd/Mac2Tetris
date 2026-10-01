@@ -4,6 +4,18 @@
 
 ## 🚀 Installation & Setup Instructions
 
+Or just let your favorite LLM do it for you. Give it this repository link and ask:
+
+```text
+Help me set up Mac2Tetris on my Mac:
+https://github.com/neriahbd/Mac2Tetris
+
+Read the README and setup scripts, ask where my nand2tetris
+folder is, and help me create the macOS simulator apps.
+If you can access my computer, perform the setup;
+otherwise, guide me through it step by step.
+```
+
 ### **Step 1:**
 Place the `utils` folder inside your `nand2tetris/tools` directory.
 
