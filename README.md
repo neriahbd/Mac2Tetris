@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Mac2Tetris Logo" width="200">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.png">
+    <img src="assets/logo-light.png" alt="Mac2Tetris Logo" width="200">
+  </picture>
 </p>
 
 ## 🚀 Installation & Setup Instructions
